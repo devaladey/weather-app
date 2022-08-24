@@ -1,0 +1,18 @@
+.loading-container {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.loading-container span {
+    display: block;
+
+}
+
+.loading-text {
+    font-size: 26px;
+}
+
+.loading-icon {
+    font-size: 60px;
+}

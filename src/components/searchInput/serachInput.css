@@ -1,0 +1,35 @@
+.serach-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.search-input {
+    background-color: #fff;
+    padding: 10px 20px;
+    padding-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    outline: none;
+    display: block;
+    font-size: 16px;
+    color: #777;
+}
+
+.search-btn {
+    width: 40px;
+    border: none;
+    color: #777;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    left: 0;
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    z-index: 20;
+}

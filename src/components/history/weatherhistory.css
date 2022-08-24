@@ -1,0 +1,37 @@
+.weather-container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.weather-history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 10px;
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.history-text {
+    line-height: 15px;
+    font-size: 22px;
+}
+
+.history-icon {
+    font-size: 30px;
+}
+
+.weather-para {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}

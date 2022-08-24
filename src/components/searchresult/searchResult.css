@@ -1,0 +1,43 @@
+.search-result {
+    margin-top: 30px;
+    position: relative;
+}
+
+.search-country {
+    text-align: center;
+}
+
+.search-country-name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.search-country-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-temperature {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-temperature-text h4 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.search-temperature-icon {
+    font-size: 45px;
+}
+
+
+.search-cloud-state {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}

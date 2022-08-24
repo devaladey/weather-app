@@ -1,0 +1,13 @@
+.screen {
+    background-color: rgba(255, 255, 255, .3);
+    background-image: linear-gradient(to bottom, orange, yellow);
+    color: #fff;
+    background-size: cover;
+    min-height: 80vh;
+    width: 400px;
+    border-radius: 3px;
+    padding: 20px;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 29px 0px; */
+}
