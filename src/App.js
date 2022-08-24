@@ -35,7 +35,12 @@ function App() {
 
   return (
     <div className="App">
+      <div className='color color-1'></div>
+      <div className='color color-2'></div>
+      <div className='color color-3'></div>
+      <div className='color color-4'></div>
       <SearchScreen>
+        <div className='screen-overlay'></div>
         <SearchInput onChange={setSearchTerm} searchTermHandler={searchTermHandler} />
         {
           searchResult.loading ? <SearchLoading />
